@@ -1,0 +1,39 @@
+/* App.css — estilos minimos para los elementos CRUD agregados */
+
+.bp-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+}
+
+.bp-table th,
+.bp-table td {
+  border: 1px solid #ddd;
+  padding: 6px 12px;
+  text-align: left;
+}
+
+.bp-table thead th {
+  background: #f5f5f5;
+}
+
+.bp-table tbody tr:hover {
+  background: #fafafa;
+}
+
+.bp-table tbody tr.selected {
+  background: #e8f0fe;
+}
+
+.bp-table tfoot td {
+  border-top: 2px solid #bbb;
+}
+
+.btn-delete {
+  color: #c00;
+}
+
+.error-msg {
+  color: #c00;
+  margin-top: 8px;
+}
